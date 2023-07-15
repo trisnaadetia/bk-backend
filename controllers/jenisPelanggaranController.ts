@@ -11,7 +11,7 @@ class JenisPelanggarans {
       res.status(200).json({ status: 200, data: result })
     })
     .catch((error:any) => {
-        next(error)
+      next(error)
     })
   }
 }
